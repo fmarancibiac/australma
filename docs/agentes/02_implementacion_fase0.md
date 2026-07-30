@@ -23,3 +23,8 @@
 - `/js/main.js` con interactividad mínima.
 - Assets en `/assets/`.
 - README.md de setup y deploy.
+
+## Uso inicial y mejora continua
+- Medir desde Fase 0: envíos reales, errores de formulario, origen del tráfico.
+- Ajustes esperados por iteración: microcopy del CTA, campos del formulario, tono y jerarquía de secciones.
+- Cada iteración incluye cierre comercial: qué aprendimos del proceso de venta y qué cambiamos para la próxima.

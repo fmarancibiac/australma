@@ -47,3 +47,18 @@ Editar `js/main.js` y reemplazar `YOUR_FORM_ID` con el ID real de Formspree.
 - **Dorado premium:** `#C49A2C`
 - **Arena natural:** `#F3EDE0`
 - **Grafito:** `#232323`
+
+
+## Proceso de trabajo con el cliente
+
+- Iteración explícita por entregas funcionales.
+- Cada ciclo incluye revisión del comportamiento de venta y ajuste de copy/UX para mejorar conversión.
+- Métricas de control: tasa de envío del formulario, % leads válidos y feedback comercial directo.
+
+## Fases previstas
+
+1. Fase 0 — landing "En construcción"
+2. Iteración 1 — ajustes de copy, conversión y validación de intención de compra
+3. Iteración 2 — incorporar aprendizaje del funnel comercial y proximas secciones
+
+

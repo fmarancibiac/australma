@@ -33,3 +33,9 @@ Una página one-page “En construcción” alojada en `australma.cl` o `www.aus
 - No modificar `/home/mts/dev/Proyectos/farolabs`.
 - Seguir la identidad de marca sin desviaciones.
 - Todo deploy debe ser reproducible.
+
+## Proceso iterativo con el cliente
+- La entrega no es un "punto final": se define como avance funcional sujeto a ciclos de revisión.
+- Cada iteración debe evaluar comportamiento de venta: copy, claridad del mensaje, llamados a la acción y percepción del usuario.
+- Se prioriza ajuste guiado por datos y feedback comercial, no solo estética.
+- Cierre de iteración: aprendizajes registrados y acciones concretas para la siguiente versión.

@@ -19,3 +19,9 @@
 - producción HTTPS.
 - Documento README con pasos de deploy y edición de copy.
 - Credenciales/cuentas de lead capture entregadas.
+
+## Iteración y mejora del proceso de venta
+- La Fase 0 entrega una base medible, no una versión definitiva.
+- Cada revisión con el cliente debe responder: ¿la página generó intención de compra o consulta?
+- Acciones típicas por iteración: ajuste de copy, refuerzo del CTA, reducción de fricción en formulario y validación de mensaje comercial.
+- Se entiende como completada cuando el embudo inicial convierte y el cliente puede replicar editores posteriores con autonomía.

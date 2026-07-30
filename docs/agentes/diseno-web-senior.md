@@ -59,3 +59,8 @@ Landing one-page “En construcción”.
 - Componentes consistentes con tokens.
 - SEO on-page verificado.
 - Assets identificados.
+
+## Mejora continua
+- El diseño se entiende como base para iteraciones comerciales, no como versión final.
+- Cada ciclo busca mejorar comprensión del producto, reducción de dudas y conversión real.
+- La evolución del sitio responde a métricas simples: envíos válidos, consultas cualificadas y feedback del cliente.
