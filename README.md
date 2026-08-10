@@ -1,10 +1,10 @@
 # Australma
 
-Marca premium chilena de productos inspirados en la naturaleza austral.
+Marca chilena de productos personalizados, outdoor y de aventura inspirados en la naturaleza del sur.
 
 ## Fase 0 — Landing page "En construcción"
 
-Sitio one-page responsive con captura de leads por email.
+Sitio one-page responsive con captura de leads completos: nombre, email, teléfono/WhatsApp, región y mensaje o consulta.
 
 ## Stack
 
@@ -12,6 +12,7 @@ Sitio one-page responsive con captura de leads por email.
 - CSS moderno (variables, grid, flexbox)
 - Vanilla JS
 - Formspree como backend de formulario
+- Endpoint configurable mediante `AUSTRALMA_FORM_ENDPOINT`; por defecto usa `/api/leads`
 
 ## Estructura
 
@@ -36,9 +37,12 @@ Sitio one-page responsive con captura de leads por email.
 
 Compatible con Vercel, Netlify o Cloudflare Pages. Subir la raíz del proyecto sin configuración adicional.
 
-### Variables de entorno (formulario)
+### Endpoint del formulario
 
-Editar `js/main.js` y reemplazar `YOUR_FORM_ID` con el ID real de Formspree.
+El formulario envía un JSON con `nombre`, `email`, `telefono`, `region`, `mensaje` y `source: 'australma-web'`.
+
+- Usá la variable global `AUSTRALMA_FORM_ENDPOINT` para apuntar a tu backend (por ejemplo Google Sheets via Apps Script).
+- Si no se define, usa `/api/leads`.
 
 ## Diseño
 
@@ -60,5 +64,7 @@ Editar `js/main.js` y reemplazar `YOUR_FORM_ID` con el ID real de Formspree.
 1. Fase 0 — landing "En construcción"
 2. Iteración 1 — ajustes de copy, conversión y validación de intención de compra
 3. Iteración 2 — incorporar aprendizaje del funnel comercial y proximas secciones
+4. Fase 1 — catálogo + storytelling
+5. Fase 2 — pasarela de pago y fulfillment
 
 
