@@ -196,7 +196,7 @@ input {
   font-weight: 700;
   font-size: 1.15rem;
   letter-spacing: 0.12em;
-  color: var(--color-verde);
+  color: var(--color-blanco);
 }
 
 .header__menu-btn {
@@ -214,7 +214,7 @@ input {
   display: block;
   width: 100%;
   height: 2px;
-  background: var(--color-verde);
+  background: var(--color-blanco);
   border-radius: 2px;
   transition: all var(--transition);
   transform-origin: center;
@@ -259,7 +259,7 @@ input {
   font-family: var(--font-titulos);
   font-weight: 500;
   font-size: 1.1rem;
-  color: var(--color-arena);
+  color: var(--color-blanco);
   letter-spacing: 0.06em;
   padding: 0.25rem 0;
   border-bottom: 1px solid transparent;
@@ -399,8 +399,24 @@ input {
 }
 
 .form {
-  max-width: 28rem;
+  max-width: 52rem;
   margin: 0 auto;
+}
+
+.form__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem 1rem;
+}
+
+.form__group--full {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 640px) {
+  .form__grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .form__group {
@@ -593,7 +609,7 @@ input {
   .header__nav-link {
     font-size: 0.85rem;
     font-weight: 500;
-    color: var(--color-verde);
+    color: var(--color-blanco);
     padding: 0.25rem 0;
     position: relative;
   }
