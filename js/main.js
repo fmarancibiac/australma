@@ -169,12 +169,15 @@
 
       try {
         const endpoint = (typeof AUSTRALMA_FORM_ENDPOINT !== 'undefined' && AUSTRALMA_FORM_ENDPOINT) || '/api/leads';
+        // text/plain evita el preflight CORS y Apps Script lo acepta igual.
         const resp = await fetch(endpoint, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
           body: JSON.stringify(payload),
         });
 
+        // Apps Script responde 200 aunque el navegador no lea JSON por CORS;
+        // basta con status ok para dar por buen el envio.
         if (!resp.ok) throw new Error('Error en el servidor');
 
         statusEl.textContent = '¡Gracias por contactar a Australma! Hemos recibido tu mensaje y nos pondremos en contacto contigo a la brevedad.';
